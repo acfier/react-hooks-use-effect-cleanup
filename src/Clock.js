@@ -7,8 +7,8 @@ function Clock() {
     setInterval(() => {
       setTime(new Date());
     }, 1000);
+     
   }, []);
-
   return <div>{time.toString()}</div>;
 }
 
